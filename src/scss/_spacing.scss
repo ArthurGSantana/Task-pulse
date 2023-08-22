@@ -1,0 +1,93 @@
+@for $i from 1 through 100 {
+  .row-gap-#{$i} {
+    row-gap: #{$i}px;
+  }
+}
+
+@for $i from 1 through 100 {
+  .col-gap-#{$i} {
+    column-gap: #{$i}px;
+  }
+}
+
+@for $i from 1 through 100 {
+  .my-#{$i} {
+    margin-top: #{$i}px;
+    margin-bottom: #{$i}px;
+  }
+}
+
+@for $i from 1 through 100 {
+  .mx-#{$i} {
+    margin-left: #{$i}px;
+    margin-right: #{$i}px;
+  }
+}
+
+@for $i from 1 through 100 {
+  .mt-#{$i} {
+    margin-top: #{$i}px;
+  }
+}
+
+@for $i from 1 through 100 {
+  .ml-#{$i} {
+    margin-left: #{$i}px;
+  }
+}
+
+@for $i from 1 through 100 {
+  .mr-#{$i} {
+    margin-right: #{$i}px;
+  }
+}
+
+@for $i from 1 through 100 {
+  .mb-#{$i} {
+    margin-bottom: #{$i}px;
+  }
+}
+
+@for $i from 1 through 100 {
+  .p-#{$i} {
+    padding: #{$i}px;
+  }
+}
+
+@for $i from 1 through 250 {
+  .py-#{$i} {
+    padding-top: #{$i}px;
+    padding-bottom: #{$i}px;
+  }
+}
+
+@for $i from 1 through 250 {
+  .px-#{$i} {
+    padding-left: #{$i}px;
+    padding-right: #{$i}px;
+  }
+}
+
+@for $i from 1 through 250 {
+  .pt-#{$i} {
+    padding-top: #{$i}px;
+  }
+}
+
+@for $i from 1 through 250 {
+  .pl-#{$i} {
+    padding-left: #{$i}px;
+  }
+}
+
+@for $i from 1 through 200 {
+  .pr-#{$i} {
+    padding-right: #{$i}px;
+  }
+}
+
+@for $i from 1 through 200 {
+  .pb-#{$i} {
+    padding-bottom: #{$i}px;
+  }
+}

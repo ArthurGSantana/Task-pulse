@@ -1,0 +1,21 @@
+@import "./colors";
+
+.bg-primary {
+  background-color: $white;
+}
+
+.bg-secondary {
+  background-color: $timberwolf;
+}
+
+.bg-header {
+  background-color: $hunter-green;
+}
+
+.bg-items {
+  background-color: $brunswick-green;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
